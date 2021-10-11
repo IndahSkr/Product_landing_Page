@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
     background: white;
     font-family: 'Ubuntu', sans-serif;
+    color: palevioletred;
 }
 
 .content {
@@ -12,16 +12,16 @@
 }
 
 header {
-    border-bottom: 2px black solid;
-    margin: 0 15px;
+    border-bottom: 2px palevioletred solid;
+    margin: 0 5px;
     position: fixed;
     align-items: center;
-    margin: 0 15px;
 }
 
 section {
-    border-bottom: 2px black solid;
+    border-bottom: 2px palevioletred solid;
     margin: 0 15px 0 15px;
+    display: inline-block;
 }
 
 #header {
@@ -41,14 +41,14 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: palevioletred;
     font-size: 20px;
     padding: 25px 40px;
 }
 
 .nav-link:hover {
-    background-color: pink;
-    border: 1px pink solid;
+    background-color: palevioletred;
+    border: 1px palevioletred solid;
     color: white;
 }
 
@@ -66,16 +66,19 @@ a {
     font-size: 20px;
     padding: 5px 15px;
     border-radius: 0.5rem;
+    border: 1px palevioletred solid;
 }
 
 #submit:hover {
     color: white;
-    background: pink;
+    background: palevioletred;
 }
 
 .photo {
     float: left;
     padding-top: 0;
+    padding-bottom: 15px;
+    /* border: 1px black solid; */
 }
 
 .line {
@@ -83,10 +86,65 @@ a {
 }
 
 #photo-ab {
-    width: 600px;
-    border: 2px pink solid;
+    width: 500px;
+    border: 2px palevioletred solid;
     border-radius: 30px;
 }
-=======
 
->>>>>>> ca4aa2ed2dc0fd98a898d2b9380464525de91996
+.desc {
+    padding-top: 150px;
+    text-align: justify;
+    margin-left: 550px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.video {
+    flex: auto;
+    padding: 15px;
+}
+
+#recipe {
+    display: flex;
+}
+
+.nvideo {
+    margin: 5px;
+    text-align: center;
+    border: 2px palevioletred solid;
+    border-radius: 15px;
+}
+
+#video {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.teks {
+    text-align: justify;
+    margin: 0 25px 15px 25px;
+}
+
+#tips {
+    display: flex;
+}
+
+.image {
+    flex: auto;
+    padding: 15px;
+}
+
+.nimage {
+    margin: 5px;
+    text-align: center;
+    border: 2px palevioletred solid;
+    border-radius: 15px;
+}
+
+#image {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
