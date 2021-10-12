@@ -1,4 +1,4 @@
 # Product_landing_Page
 This project form freecodecamp.ord challenge
 
-![landingpage](https://www.awesomescreenshot.com/image/14877641?key=37aeadbba2a0879b1c1df843440b12bb)
+![landingpage](https://github.com/IndahSkr/Product_landing_Page/blob/8a627e206c77eab6bd632d22d12384363c276426/Product%20Landing%20.png)
